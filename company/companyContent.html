@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>国企公共服务平台</title>
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/left.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/companyContent.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/companyContent.js"></script>
+</head>
+
+<body class="yq-bg">
+    <div class="top">
+        <div class="topHeader">
+            <div class="logo">
+                <img src="images/logo.png">
+                <ul class="logoUL">
+                    <li>
+                        园区企业公共服务平台
+                    </li>
+                </ul>
+            </div>
+            <div class="headerRight">
+                <div class="search">
+                    <form name="formsearch" id="formsearch" method="post">
+                        <input type="text" name="searchValue" id="searchValue" value="" placeholder="请输入搜索内容" class="seachInpt">
+                        <div id="header-search" class="search-sort" onmouseover="select_over('search-sort-list2')" onmouseout="select_out('search-sort-list2')">
+                            <strong class="search-sort-txt">新闻动态</strong>
+                            <em></em>
+                            <input type="hidden" name="typeId" id="typeId" value="2">
+                            <ul id="search-sort-list2" class="search-sort-list">
+                                <li value="1">通知公告</li>
+                                <li value="2">新闻动态</li>
+                                <!--<li value="3">园区活动</li>-->
+                            </ul>
+                        </div>
+                        <a class="seachBTN">搜索</a>
+                    </form>
+                </div>
+                <!--search-->
+                <ul class="rightUL">
+                    <li class="loginLI">
+                        <a href="#" class="loginBtnON">
+                            <div class="imgHEDER">
+                                <span id="unReadMsg">53</span>
+                            </div>
+                            <span title="qh01">qh01</span>
+                            <img src="images/arrbtn.png" width="11" height="6">
+                        </a>
+                        <ul class="loginUL">
+                            <li>
+                                <a href="#">消息中心</a>
+                            </li>
+                            <li>
+                                <a href="#">安全退出</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="nav">
+            <div class="navContent">
+                <a href="#" class="totalDivd">全部服务分类
+                    <div class="totalArrw"></div>
+                </a>
+                <div class="menu_header">
+                    <div class="listCont listContMore">
+                        <span class="moreTip"></span>
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>基础服务</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="" target="">资料下载</a>
+                                </li>
+                                <li>
+                                    <a href="" target="">费用查询</a>
+                                </li>
+                                <li>
+                                    <a href="" target="">在线咨询</a>
+                                </li>
+                                <li>
+                                    <a href="" target="">投诉建议</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>孵化服务</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="#" target="">公共技术平台</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">科技金融平台</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">创新创业服务平台</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">国际合作平台</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>孵化载体</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="#" target="">扩租申请</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">退租申请</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">会议室申请</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">二期预购申请</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>增值服务</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="" target="">暂住证代办</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                    </div>
+                    <!--listCont-->
+                </div>
+                <ul class="navUL">
+                    <li>
+                        <a class="" data-type="index" href="../index/index.html">首页</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="news" href="../news/news.html">新闻动态</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="notice" href="../news/news.html">通知公告</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="officehall" href="../officehall/officehall.html">服务大厅</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="activePrev" href="../activity/activity.html">园区活动</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="resource" href="../resource/resource.html">园区资源</a>
+                    </li>
+                    <li>
+                        <a class="navActive" data-type="comp" href="../company/company.html">企业星空</a>
+                    </li>
+                    <li id='cyds'>
+                        <a class="" data-type="expert" href="../teacher/teacher.html">创业导师</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="provider" href="../provider/provider.html">服务机构</a>
+                    </li>
+                    <li id='wskf'>
+                        <a class="" data-type="house" href="../house/house.html">网上看房</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--nav结束-->
+        <div class="yq-main">
+            <!-- 左侧新闻公告栏 -->
+            <div class="yq-left">
+                <div class="yq-left-notice">
+                    <ul class="yq-left-ul">
+                        <li>最新公告</li>
+                        <a href="#">
+                            <li>
+                                <span>1</span>公司办公地点变更通告</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>2</span>关于组织申报2016年珠海市高新...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>3</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>4</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>5</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>6</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>7</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>8</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="yq-left-news">
+                    <ul class="yq-left-ul">
+                        <li>热门新闻</li>
+                        <a href="#">
+                            <li>
+                                <span>1</span>2017年广东省“众创杯”创业创新...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>2</span>珠海清华科技园二期创新大厦G、H...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>3</span>“情聚清华园，千里共婵娟”201...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>4</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>5</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>6</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>7</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>8</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧内容区域 -->
+            <div class="yq-right-content">
+                <div class="yq-right-nav">
+                    当前位置：
+                    <a href="company.html">企业星空 </a>>
+                    <a href="#"> 企业详情</a>
+                </div>
+                <div class="company">
+                    <div class="activityHeader">
+                        <img class='headerImg' src="./images/activityContent.png" alt="">
+                        <div class="header_right">
+                            <p>上海高科技公司</p>
+                            <p class="headerP">地&#x3000;址 ：上上海市浦东新区张江高科技园区深海路89号</p>
+                            <p class="headerP">联系人 ：张强</p>
+                            <p class="headerP">电&#x3000;话 ：18698456524</p>
+                            <p class="headerP">行&#x3000;业 ：高科技研发</p>
+                        </div>
+                    </div>
+                    <ul class="resourceNav">
+                        <li class="liActive" data-index="re1">机构详情</li>
+                        <li data-index="re2">服务产品</li>
+                        <li data-index="re3">机器设备</li>
+                        <li data-index="re4">服务资质</li>
+                        <li data-index="re5">机构评价</li>
+                    </ul>
+                    <div class="conpanyContent">
+                        <p>上海中威天安公共安全科技有限公司是中国科学院上海高等研究院与汉威电子（SH:300007）共同出资成立的，专注于安全咨询、系统研发、系统集成、数据服务等领域，是中国科科学院上海高等研究院技术创新和成果转化平台，也是国家高新技术企业，上海市双软认证企业，上海市优秀软件开发单位及上海战略新兴项目入选单位。上海中威基于高研院“政、产、学、研、用”相结合的机制，在数据采集与监测监控，安全生产综合监督信息平台，危化品事故应急救援系统和装备等方面，拥有完整自主核心知识产权，形成了安全生产综合监管及应急有预案软件。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 页脚通用部分 -->
+        <div class="footer">
+            <div class="footConter">
+                <ul class="erwemULst">
+                    <li>
+                        <img src="images/ewm.png">
+                    </li>
+                </ul>
+                <ul class="innetLists" style="float:left;text-align:left;margin:30px 0 0 80px;">
+                    <li>
+                        <a href="#">通知公告</a> |
+                        <a href="#">服务大厅</a> |
+                        <a href="#">园区活动</a> |
+                        <a href="#">园区资源</a> |
+                        <a href="#">企业星空</a> |
+                        <a href="#">服务机构</a> |
+                        <a href="#">网上看房</a>
+                    </li>
+                    <li style="letter-spacing: 0;text-align: center;">Copyright 2012 中威天安 All Rights Reserved |
+                        <a style="color: #999;" href='#' target='_blank'>沪ICP备12049726号</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <div style="float:right;width:230px;padding:10px 0px;;text-align:center;margin-top:5px;">
+                        <img src="images/jb.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+</body>
+<script>
+    $(function () {
+        $('.totalDivd').on("mouseover", function () {
+            $('.menu_header').css({
+                'opacity': 1,
+                'z-index': 999999
+            });
+        })
+        $('.totalDivd').on("mouseout", function () {
+            $('.menu_header').css({
+                'opacity': 0,
+                'z-index': -1
+            });
+        })
+        $('.menu_header').on("mouseover", function () {
+            $('.menu_header').css({
+                'opacity': 1,
+                'z-index': 999999
+            });
+        })
+        $('.menu_header').on("mouseout", function () {
+            $('.menu_header').css({
+                'opacity': 0,
+                'z-index': -1
+            });
+        })
+        $('.loginLI').hover(function () {
+            $('.loginUL').css({
+                width: '120px'
+            });
+        }, function () {
+            $('.loginUL').css({
+                width: '0'
+            });
+        })
+    })
+</script>
+
+</html>

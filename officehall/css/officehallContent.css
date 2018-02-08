@@ -1,0 +1,40 @@
+.officehall{
+    padding: 0 40px;
+    box-shadow: 0 0 1px #e5e5e5;
+}
+.title{
+    line-height: 80px;
+    font-size: 20px;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+}
+.officehallContent{
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0;  
+}
+.officehallContent p{
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0;
+    color: #666;
+}
+.apply{
+    text-align: center;
+    line-height: 100px;
+    color: #333;
+}
+.apply input{
+    background-color: #fff;
+    vertical-align: middle;
+}
+.apply span{
+    padding: 5px 8px;
+    background-color: #00c4ef;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    cursor:pointer;
+}

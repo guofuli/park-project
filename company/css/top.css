@@ -1,0 +1,379 @@
+body{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.yq-bg {
+background-color: #f4f4f4;
+}
+.top {
+width: 100%;
+height: 160px;
+background-color: white;
+}
+.top .topHeader {
+height: 120px;
+width: 1200px;
+margin: 0 auto;
+}
+.logo {
+float: left;
+margin-top: 25px;
+}
+.logo img {
+float: left;
+}
+img {
+vertical-align: middle;
+}
+.logoUL {
+float: left;
+font-size: 16px;
+color: #666666;
+letter-spacing: 2px;
+margin-left: 10px;
+margin-top: 3px;
+}
+.logoUL li {
+margin-top: 25px;
+}
+.headerRight {
+float: right;
+}
+.search {
+float: left;
+margin-top: 45px;
+margin-right: 40px;
+}
+.seachInpt {
+float: left;
+height: 32px;
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-left-width: 2px;
+border-top-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-top-color: #00c4ef;
+border-bottom-color: #00c4ef;
+border-left-color: #00c4ef;
+border-right-style: none;
+width: 340px;
+outline: none;
+background-image: url(/app/index/img/searchbtn.png);
+background-repeat: no-repeat;
+background-position: 10px center;
+text-indent: 30px;
+}
+.search-sort {
+height: 34px;
+line-height: 34px;
+cursor: pointer;
+position: relative;
+float: left;
+padding-top: 0;
+padding-right: 10px;
+padding-bottom: 0;
+padding-left: 10px;
+font-size: 14px;
+color: #8899ad;
+border-top-width: 2px;
+border-bottom-width: 2px;
+border-top-style: solid;
+border-bottom-style: solid;
+border-top-color: #00c4ef;
+border-bottom-color: #00c4ef;
+}
+.search-sort-txt {
+background: none;
+text-align: center;
+font-weight: normal;
+}
+.search-sort em {
+display: inline-block;
+width: 0;
+height: 0;
+vertical-align: middle;
+border: 5px solid rgba(255,255,255,0);
+border-top-color: #b0a59f;
+border-bottom-width: 0;
+margin-left: 4px;
+}
+.search-sort-list {
+display: none;
+position: absolute;
+left: 0px;
+z-index: 10;
+background-color: rgba(0,0,0,0.4);
+list-style-type: none;
+/* border: 1px solid #cccccc; */
+padding: 0px;
+width: 100%;
+}
+.search-sort-list li {
+font-size: 14px;
+color: #FFF;
+line-height: 25px;
+text-align: center;
+}
+.seachBTN {
+font-size: 14px;
+line-height: 35px;
+height: 38px;
+width: 65px;
+color: #FFF;
+background-color: #00c4ef;
+display: block;
+float: left;
+text-align: center;
+cursor: pointer;
+}
+.rightUL {
+float: left;
+text-align: right;
+}
+.loginLI {
+position: relative;
+}
+.loginBtn {
+font-size: 16px;
+line-height: 45px;
+color: #FFF;
+background-color: #ffcc1b;
+height: 45px;
+width: 120px;
+border-radius: 3px;
+display: block;
+text-indent: 55px;
+background-repeat: no-repeat;
+background-position: 10px center;
+cursor: pointer;
+text-align: left;
+margin-top: 40px;
+position: relative;
+text-decoration: none;
+}
+.loginBtnON {
+line-height: 45px;
+color: #FFF;
+background-color: #ffcc1b;
+height: 45px;
+width: 120px;
+border-radius: 3px;
+display: block;
+cursor: pointer;
+text-align: left;
+margin-top: 40px;
+position: relative;
+text-decoration: none;
+font-size: 12px;
+}
+.imgHEDER {
+float: left;
+background-image: url('../images/user.png');
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+height: 30px;
+width: 30px;
+border: 2px solid #FFF;
+border-radius: 100px;
+margin-top: 5px;
+margin-left: 10px;
+margin-right: 5px;
+}
+.imgHEDER>span {
+font-size: 12px;
+color: #FFF;
+background-color: #ff6800;
+height: 18px;
+border-radius: 100px;
+line-height: 18px;
+text-align: center;
+float: right;
+margin-top: -5px;
+margin-right: -5px;
+padding-right: 5px;
+padding-left: 5px;
+}
+.loginBtnON>span {
+width: 45px;
+overflow: hidden;
+float: left;
+margin-right: 3px;
+text-overflow: ellipsis;
+}
+.loginUL {
+font-size: 12px;
+color: #333333;
+position: absolute;
+z-index: 999;
+text-indent: 0;
+text-align: center;
+background-image: none;
+top: 43px;
+background-color: #FFF;
+width: 0px;
+overflow: hidden;
+white-space: nowrap;
+box-shadow: 0;
+}
+.loginUL li {
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #fafafa;
+}
+.loginUL li a {
+line-height: 40px;
+color: #333333;
+text-decoration: none;
+height: 40px;
+}
+.nav {
+clear: both;
+background-color: #00c4ef;
+height: 40px;
+line-height: 40px;
+}
+.navContent {
+width: 1200px;
+margin-right: auto;
+margin-left: auto;
+}
+.navContent a {
+color: #FFF;
+text-decoration: none;
+font-size: 14px;
+}
+.totalDivd {
+background-color: #00a6c7;
+float: left;
+padding-left: 25px;
+width: 185px;
+}
+.totalArrw {
+text-align: center;
+height: 14px;
+width: 14px;
+float: right;
+margin-top: 14px;
+margin-right: 10px;
+background-image: url(../images/moreMenu.png);
+padding-left: 1px;
+padding-bottom: 1px;
+}
+.menu_header {
+position: relative;
+z-index: -1;
+opacity: 0;
+}
+.listContMore {
+width: 280px;
+position: absolute;
+top: 40px;
+}
+.listCont {
+background-color: #FFF;
+width: 280px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-right-color: #e5e5e5;
+border-bottom-color: #e5e5e5;
+border-left-color: #e5e5e5;
+padding-bottom: 15px;
+}
+.listContMore .moreTip {
+background-image: url(../images/moreTip.png);
+display: block;
+width: 12px;
+height: 6px;
+margin-top: -6px;
+margin-left: 25%;
+}
+.listOne {
+clear: both;
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #e5e5e5;
+margin-right: 20px;
+margin-left: 20px;
+}
+.liseOneHED {
+font-size: 14px;
+margin-bottom: 3px;
+}
+.liseOneHED a {
+color: #40546a;
+text-decoration: none;
+}
+.liseLeftCirc {
+display: inline-block;
+height: 4px;
+width: 4px;
+border: 1px solid #40546a;
+border-radius: 50px;
+vertical-align: 10%;
+margin-right: 5px;
+}
+.liseOcontUL {
+font-size: 12px;
+padding-left: 4px;
+}
+.listContMore .listOneMore li {
+line-height: 12px;
+}
+.liseOcontUL li {
+float: left;
+/* width: 80px; */
+margin-bottom: 10px;
+}
+.listContMore .listOneMore li a {
+color: #999999;
+}
+.liseOcontUL li a {
+font-size: 12px;
+color: #999999;
+text-decoration: none;
+display: block;
+padding: 2px 4px 2px 4px;
+}
+.navUL {
+float: left;
+}
+.navUL li {
+float: left;
+}
+.navUL li a {
+float: left;
+padding-right: 18px;
+padding-left: 20px;
+margin-right: 2px;
+}
+.navUL li a:hover, .navActive {
+background-color: #0997b6;
+-moz-box-shadow: 0px 0px 2px #666666 inset;
+box-shadow: 0px 0px 2px #666666 inset;
+}

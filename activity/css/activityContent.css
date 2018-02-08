@@ -1,0 +1,83 @@
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.activityContent{
+    padding: 20px;
+}
+.activityHeader{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.headerImg{
+    float: left;
+    width: 340px;
+}
+.header_right{
+    margin-left: 360px;
+}
+p{
+    line-height: 35px;
+    font-size: 14px;
+    color: #333;
+}
+.headerP{
+    color: #666;
+}
+.enter{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    width: 80px;
+    background-color: #00c4ef;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+.activityData{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.activityData h1{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+}
+.activityData p{
+    line-height: 18px;
+    font-size: 14px;
+    color: #666;
+    text-indent: 2em;
+}
+.activityData h2{
+    line-height: 25px;
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+}
+.time{
+    width: 320px;
+    margin-left: 560px;
+    text-align: center;
+}
+.time h2{
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+}
+.singlePeople{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+span:hover{
+    cursor: pointer;
+}
+.activityData img{
+    width: 100%;
+}

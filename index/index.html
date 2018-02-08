@@ -1,0 +1,714 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>国企公共服务平台</title>
+	<link rel="stylesheet" href="./css/top.css">
+	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body class="yq-bg">
+	<div class="top">
+		<div class="topHeader">
+			<div class="logo">
+				<img src="images/logo.png">
+				<ul class="logoUL">
+					<li>
+						园区企业公共服务平台
+					</li>
+				</ul>
+			</div>
+			<div class="headerRight">
+				<div class="search">
+					<form name="formsearch" id="formsearch" method="post">
+						<input type="text" name="searchValue" id="searchValue" value="" placeholder="请输入搜索内容" class="seachInpt">
+						<div id="header-search" class="search-sort" onmouseover="select_over('search-sort-list2')" onmouseout="select_out('search-sort-list2')">
+							<strong class="search-sort-txt">新闻动态</strong>
+							<em></em>
+							<input type="hidden" name="typeId" id="typeId" value="2">
+							<ul id="search-sort-list2" class="search-sort-list">
+								<li value="1">通知公告</li>
+								<li value="2">新闻动态</li>
+								<!--<li value="3">园区活动</li>-->
+							</ul>
+						</div>
+						<a class="seachBTN">搜索</a>
+					</form>
+				</div>
+				<!--search-->
+				<ul class="rightUL">
+					<li class="loginLI">
+						<a href="#" class="loginBtnON">
+							<div class="imgHEDER">
+								<span id="unReadMsg">53</span>
+							</div>
+							<span title="qh01">qh01</span>
+							<img src="images/arrbtn.png" width="11" height="6">
+						</a>
+						<ul class="loginUL">
+							<li>
+								<a href="#">消息中心</a>
+							</li>
+							<li>
+								<a href="#">安全退出</a>
+							</li>
+						</ul>
+
+					</li>
+				</ul>
+
+			</div>
+		</div>
+		<div class="nav">
+			<div class="navContent">
+				<a href="#" class="totalDivd">全部服务分类
+					<div class="totalArrw"></div>
+				</a>
+				<div class="menu_header">
+					<div class="listCont listContMore">
+						<span class="moreTip"></span>
+						<div class="listOne listOneMore">
+							<p class="liseOneHED">
+								<a href="#">
+									<i class="liseLeftCirc"></i>基础服务</a>
+							</p>
+							<ul class="liseOcontUL">
+								<li>
+									<a href="" target="">资料下载</a>
+								</li>
+								<li>
+									<a href="" target="">费用查询</a>
+								</li>
+								<li>
+									<a href="" target="">在线咨询</a>
+								</li>
+								<li>
+									<a href="" target="">投诉建议</a>
+								</li>
+							</ul>
+							<div style="clear:both;"></div>
+						</div>
+						<!--listOne-->
+						<div class="listOne listOneMore">
+							<p class="liseOneHED">
+								<a href="#">
+									<i class="liseLeftCirc"></i>孵化服务</a>
+							</p>
+							<ul class="liseOcontUL">
+								<li>
+									<a href="#" target="">公共技术平台</a>
+								</li>
+								<li>
+									<a href="#" target="">科技金融平台</a>
+								</li>
+								<li>
+									<a href="#" target="">创新创业服务平台</a>
+								</li>
+								<li>
+									<a href="#" target="">国际合作平台</a>
+								</li>
+							</ul>
+							<div style="clear:both;"></div>
+						</div>
+						<!--listOne-->
+						<div class="listOne listOneMore">
+							<p class="liseOneHED">
+								<a href="#">
+									<i class="liseLeftCirc"></i>孵化载体</a>
+							</p>
+							<ul class="liseOcontUL">
+								<li>
+									<a href="#" target="">扩租申请</a>
+								</li>
+								<li>
+									<a href="#" target="">退租申请</a>
+								</li>
+								<li>
+									<a href="#" target="">会议室申请</a>
+								</li>
+								<li>
+									<a href="#" target="">二期预购申请</a>
+								</li>
+							</ul>
+							<div style="clear:both;"></div>
+						</div>
+						<!--listOne-->
+						<div class="listOne listOneMore">
+							<p class="liseOneHED">
+								<a href="#">
+									<i class="liseLeftCirc"></i>增值服务</a>
+							</p>
+							<ul class="liseOcontUL">
+								<li>
+									<a href="" target="">暂住证代办</a>
+								</li>
+							</ul>
+							<div style="clear:both;"></div>
+						</div>
+						<!--listOne-->
+					</div>
+					<!--listCont-->
+				</div>
+				<ul class="navUL">
+					<li>
+						<a class="navActive" data-type="index" href="../index/index.html">首页</a>
+					</li>
+					<li>
+						<a class="" data-type="news" href="../news/news.html">新闻动态</a>
+					</li>
+					<li>
+						<a class="" data-type="notice" href="../news/news.html">通知公告</a>
+					</li>
+					<li>
+						<a class="" data-type="officehall" href="../officehall/officehall.html">服务大厅</a>
+					</li>
+					<li>
+						<a class="" data-type="activePrev" href="../activity/activity.html">园区活动</a>
+					</li>
+					<li>
+						<a class="" data-type="resource" href="../resource/resource.html">园区资源</a>
+					</li>
+					<li>
+						<a class="" data-type="comp" href="../company/company.html">企业星空</a>
+					</li>
+					<li id='cyds'>
+						<a class="" data-type="expert" href="../teacher/teacher.html">创业导师</a>
+					</li>
+					<li>
+						<a class="" data-type="provider" href="../provider/provider.html">服务机构</a>
+					</li>
+					<li id='wskf'>
+						<a class="" data-type="house" href="../house/house.html">网上看房</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--nav结束-->
+	</div>
+	<!-- 轮播图 -->
+	<div class="fullSlide">
+		<div class="bd">
+			<ul>
+				<li>
+					<a target="_blank" href="#">
+						<img src="images/img.png" />
+					</a>
+				</li>
+				<li>
+					<a target="_blank" href="#">
+						<img src="images/img.png" />
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="hd">
+			<ul></ul>
+		</div>
+	</div>
+	<!-- 服务 -->
+	<ul class="fw">
+		<li class="c1">
+			<dl>
+				<dd>基础服务</dd>
+				<dt>
+					<a href="#">
+						<i></i>资料下载</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>费用查询</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>在线咨询</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>投诉建议</a>
+				</dt>
+			</dl>
+		</li>
+		<li class="c2">
+			<dl>
+				<dd>孵化服务</dd>
+				<dt>
+					<a href="#">
+						<i></i>公共技术平台</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>科技金融平台</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>创新创业服务平台</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>国际合作平台</a>
+				</dt>
+			</dl>
+		</li>
+		<li class="c3">
+			<dl>
+				<dd>孵化载体</dd>
+				<dt>
+					<a href="#">
+						<i></i>扩租申请</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>退租申请</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>会议室申请</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>二期预购申请</a>
+				</dt>
+			</dl>
+		</li>
+		<li class="c4">
+			<dl>
+				<dd>增值服务</dd>
+				<dt>
+					<a href="#">
+						<i></i>暂住证代办</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>扩租申请</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>会议室申请</a>
+				</dt>
+				<dt>
+					<a href="#">
+						<i></i>二期预购申请</a>
+				</dt>
+			</dl>
+		</li>
+	</ul>
+
+	<div class="yq-block">
+		<div class="yq-lft">
+			<div class="yq-title">
+				<div class="title">最新动态</div>
+				<div class="more">
+					<a href="#">查看更多
+						<i></i>
+					</a>
+				</div>
+			</div>
+			<div class="yq-content">
+				<ul>
+					<li class="yq-bottom">
+						<img src="images/news1.png" class="jq-newsImg">
+						<div class="newTop">
+							<dl>
+								<dd>
+									<a href="#">【园区新闻】园区主要领导前往珠三角地区考察学习园区 党建工作
+									</a>
+								</dd>
+								<dt>
+									在签约仪式上，清华大学副秘书长、深圳清华大学研究院院长、清华珠三角研究院院长嵇世山表示，珠海清华科技园将扎根珠海、服务珠海，继续坚持...
+								</dt>
+								<dt class="gray">2017-4-21</dt>
+							</dl>
+						</div>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>【园区新闻】</dt>
+								<dd class="content">园区的智慧之道：如何才能打造真正智能打造真正智能打造真正智...</dd>
+								<dd class="date">2017-4-21</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>【园区新闻】</dt>
+								<dd class="content">园区的智慧之道：如何才能打造真正智能打造真正智能打造真正智...</dd>
+								<dd class="date">2017-4-21</dd>
+							</dl>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<dl>
+								<dt>【园区新闻】</dt>
+								<dd class="content">园区的智慧之道：如何才能打造真正智能打造真正智能打造真正智...</dd>
+								<dd class="date">2017-4-21</dd>
+							</dl>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="yq-rgt">
+			<div class="yq-title">
+				<div class="title">通告通知</div>
+				<div class="more">
+					<a href="#">查看更多
+						<i></i>
+					</a>
+				</div>
+			</div>
+			<div class="yq-content">
+				<ul>
+					<li>
+						<div class="notice">
+							<span>4-21</span>
+						</div>
+						<div class="content t-con">
+							<a href="">园区主要领导前往珠三角地区</a>
+							因公司业务发展的需要，自2017年6月5日起，我 公司由清华科技园B座10层搬迁至清...
+						</div>
+					</li>
+					<li>
+						<div class="notice">
+							<span>4-21</span>
+						</div>
+						<div class="content t-con">
+							<a href="">园区主要领导前往珠三角地区</a>
+							因公司业务发展的需要，自2017年6月5日起，我 公司由清华科技园B座10层搬迁至清...
+						</div>
+					</li>
+					<li>
+						<div class="notice">
+							<span>4-21</span>
+						</div>
+						<div class="content t-con">
+							<a href="">园区主要领导前往珠三角地区</a>
+							因公司业务发展的需要，自2017年6月5日起，我 公司由清华科技园B座10层搬迁至清...
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="yq-block yq-all">
+		<div class="yq-title">
+			<div class="title">园区活动</div>
+			<div class="more">
+				<a href="#">查看更多
+					<i></i>
+				</a>
+			</div>
+		</div>
+		<div class="yq-content">
+			<div class="yq-act">
+				<div class="yq-img">
+					<img src="images/img-01.png">
+					<span>活动结束</span>
+				</div>
+				<div class="act-blk">
+					<dl>
+						<dd>生命密码解开社交关系的真相，私人订...</dd>
+						<dt class="clock">2017-10-10&#x3000;14:00</dt>
+						<dt class="user">限定50人</dt>
+					</dl>
+				</div>
+			</div>
+			<div class="yq-act">
+				<div class="yq-img">
+					<img src="images/img-02.png">
+					<span class="join">我要参与</span>
+				</div>
+				<div class="act-blk">
+					<dl>
+						<dd>生命密码解开社交关系的真相，私人订...</dd>
+						<dt class="clock">2017-10-10&#x3000;14:00</dt>
+						<dt class="user">限定50人</dt>
+					</dl>
+				</div>
+			</div>
+			<div class="yq-act">
+				<div class="yq-img">
+					<img src="images/img-03.png">
+					<span>活动结束</span>
+				</div>
+				<div class="act-blk">
+					<dl>
+						<dd>生命密码解开社交关系的真相，私人订...</dd>
+						<dt class="clock">2017-10-10&#x3000;14:00</dt>
+						<dt class="user">限定50人</dt>
+					</dl>
+				</div>
+			</div>
+			<div class="yq-act">
+				<div class="yq-img">
+					<img src="images/img-04.png">
+					<span>活动结束</span>
+				</div>
+				<div class="act-blk">
+					<dl>
+						<dd>生命密码解开社交关系的真相，私人订...</dd>
+						<dt class="clock">2017-10-10&#x3000;14:00</dt>
+						<dt class="user">限定50人</dt>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="yq-block">
+		<div class="yq-lft">
+			<div class="yq-title">
+				<div class="title">星空企业</div>
+				<div class="more">
+					<a href="#">查看更多
+						<i></i>
+					</a>
+				</div>
+			</div>
+			<div class="yq-content">
+				<div class="yq-ent">
+					<div class="ent-green">
+						<h4>企业动态</h4>
+					</div>
+					<div class="ent-con">
+						<div class="blk">
+							<div class="ent-date">
+								<p>26</p>
+								<div>2017-05</div>
+							</div>
+							<p class="pTitle">珠海清华科技园二期创新大厦主体封顶暨先锋项目入...</p>
+							<p class="pContent">签约仪式在珠海清华科技园隆重举办。这表明珠海科技创新力...</p>
+						</div>
+						<div class="blk" style="margin-top: 10px;">
+							<div class="ent-date">
+								<p>26</p>
+								<div>2017-05</div>
+							</div>
+							<p class="pTitle">珠海清华科技园二期创新大厦主体封顶暨先锋项目入...</p>
+							<p class="pContent">签约仪式在珠海清华科技园隆重举办。这表明珠海科技创新力...</p>
+						</div>
+					</div>
+				</div>
+				<div class="yq-ent" style="margin-top: 10px;">
+					<div class="ent-blue">
+						<h4>企业动态</h4>
+					</div>
+					<div class="ent-con">
+						<ul class="ent-logo">
+							<li>
+								<img src="images/ent-01.png">
+							</li>
+							<li>
+								<img src="images/ent-01.png">
+							</li>
+							<li>
+								<img src="images/ent-01.png">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="yq-rgt">
+			<div class="yq-title">
+				<div class="title">推荐导师</div>
+				<div class="more">
+					<a href="#">查看更多
+						<i></i>
+					</a>
+				</div>
+			</div>
+			<div class="yq-content">
+				<ul>
+					<li>
+						<div class="ds-user">
+							<img src="images/ds-01.png">
+						</div>
+						<div class="content ds-con">
+							<div class="ds-title">
+								<a href="">王强【战略管理】</a>
+								<a href="#" class="ds-talk"></a>
+							</div>
+							王强，战略管理领域导师。清华大学工学硕 士和法学学士。现任深圳清华...
+						</div>
+					</li>
+					<li>
+						<div class="ds-user">
+							<img src="images/ds-02.png">
+						</div>
+						<div class="content ds-con">
+							<div class="ds-title">
+								<a href="">王强【战略管理】</a>
+								<a href="#" class="ds-talk"></a>
+							</div>
+							王强，战略管理领域导师。清华大学工学硕 士和法学学士。现任深圳清华...
+						</div>
+					</li>
+					<li>
+						<div class="ds-user">
+							<img src="images/ds-03.png">
+						</div>
+						<div class="content ds-con">
+							<div class="ds-title">
+								<a href="">王强【战略管理】</a>
+								<a href="#" class="ds-talk"></a>
+							</div>
+							王强，战略管理领域导师。清华大学工学硕 士和法学学士。现任深圳清华...
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="yq-block yq-all fw-block">
+		<div class="yq-title">
+			<div class="title">资源服务</div>
+			<div class="more">
+				<a href="#">查看更多
+					<i></i>
+				</a>
+			</div>
+		</div>
+		<div class="yq-content">
+			<div class="yq-act">
+				<div class="fw-img">
+					<img src="images/fw-01.png">
+					<span>园区服务商资源服务</span>
+				</div>
+				<div class="fw-kind">
+					<span>
+						<a href="#">财税</a>
+					</span>
+					<span>
+						<a href="#">法律</a>
+					</span>
+					<span>
+						<a href="#">风投</a>
+					</span>
+					<span>
+						<a href="#">金融</a>
+					</span>
+					<span>
+						<a href="#">科技中介</a>
+					</span>
+					<span>
+						<a href="#">证券商</a>
+					</span>
+				</div>
+			</div>
+			<div class="yq-act">
+				<div class="fw-img">
+					<img src="images/fw-02.png">
+					<span>高科技空间会议室</span>
+				</div>
+			</div>
+			<div class="yq-act">
+				<div class="fw-img">
+					<img src="images/fw-03.png">
+					<span>高科技空间会议室</span>
+				</div>
+			</div>
+			<div class="yq-act">
+				<div class="fw-img">
+					<img src="images/fw-04.png">
+					<span>高科技空间会议室</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footConter">
+			<ul class="erwemULst">
+				<li>
+					<img src="images/ewm.png">
+				</li>
+			</ul>
+			<ul class="innetLists" style="float:left;text-align:left;margin:30px 0 0 80px;">
+				<li>
+					<a href="#">通知公告</a> |
+					<a href="#">服务大厅</a> |
+					<a href="#">园区活动</a> |
+					<a href="#">园区资源</a> |
+					<a href="#">企业星空</a> |
+					<a href="#">服务机构</a> |
+					<a href="#">网上看房</a>
+				</li>
+				<li style="letter-spacing: 0;text-align: center;">Copyright 2012 中威天安 All Rights Reserved |
+					<a style="color: #999;" href='#' target='_blank'>沪ICP备12049726号</a>
+				</li>
+			</ul>
+			<a href="#">
+				<div style="float:right;width:240px;padding:10px 0px;;text-align:center;margin-top:5px;">
+					<img src="images/jb.png">
+				</div>
+			</a>
+		</div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.SuperSlide.js"></script>
+	<script type="text/javascript">
+		jQuery(".fullSlide").slide({
+			titCell: ".hd ul",
+			mainCell: ".bd ul",
+			effect: "leftLoop",
+			vis: "auto",
+			autoPlay: true,
+			autoPage: true,
+			trigger: "click"
+		});
+		$(function () {
+			$('.totalDivd').on("mouseover", function () {
+				$('.menu_header').css({
+					'opacity': 1,
+					'z-index': 999999
+				});
+			})
+			$('.totalDivd').on("mouseout", function () {
+				$('.menu_header').css({
+					'opacity': 0,
+					'z-index': -1
+				});
+			})
+			$('.menu_header').on("mouseover", function () {
+				$('.menu_header').css({
+					'opacity': 1,
+					'z-index': 999999
+				});
+			})
+			$('.menu_header').on("mouseout", function () {
+				$('.menu_header').css({
+					'opacity': 0,
+					'z-index': -1
+				});
+			})
+			$('.loginLI').hover(function () {
+				$('.loginUL').css({
+					width: '120px'
+				});
+			}, function () {
+				$('.loginUL').css({
+					width: '0'
+				});
+			})
+			$('.yq-content ul li .ds-user img').each(function () {
+				var width = -$(this).width() / 2;
+				var height = -$(this).height() / 2;
+				$(this).css({
+					'margin-left': width,
+					'margin-top': height
+				})
+			})
+		})
+	</script>
+</body>
+
+</html>

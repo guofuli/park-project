@@ -1,0 +1,118 @@
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.activityContent{
+    padding: 20px;
+}
+.activityHeader{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.headerImg{
+    float: left;
+    width: 340px;
+}
+.header_right{
+    margin-left: 360px;
+}
+.header_right span{
+    color: #999;
+    font-size: 12px;
+}
+.header_right p:nth-of-type(2){
+    line-height: 18px;
+    color: #999;
+    font-size: 12px;
+}
+p{
+    line-height: 35px;
+    font-size: 14px;
+    color: #333;
+}
+.headerP{
+    color: #999;
+    line-height: 30px;
+}
+
+.teacherData{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.teacherData h2{
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0;
+}
+.teacherData p{
+    line-height: 20px;
+    font-size: 12px;
+    color: #999;
+    padding: 20px 10px 30px;
+    box-shadow: 0px 1px 1px #e5e5e5;
+}
+.message{
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.user{
+    width: 60px;
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    color: #999;
+}
+.user img{
+    width: 30px !important;
+    margin-bottom: 10px;
+}
+.userMessage{
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 20px;
+    width: 750px;
+}
+.messageTime{
+    float: right;
+    width: 100px;
+    color: #999;
+}
+textarea{
+    color: #999;
+    text-indent: 2em;
+    line-height: 20px;
+    font-size: 12px;
+}
+.sryzm{
+    width: 380px;
+    padding-top: 20px;
+    float:right;
+    margin-right: 20px;
+    color: #666;
+}
+.sryzm input{
+    width: 60px;
+}
+.yzm{
+    display: inline;
+    padding: 2px 10px;
+    margin-left: 10px;
+}
+.submit{
+    padding: 5px 20px;
+    color: white;
+    background-color: #00c4ef;
+    margin-left: 40px;
+}
+span:hover{
+    cursor: pointer;
+}
+.teacherData img{
+    width: 100%;
+}

@@ -1,0 +1,47 @@
+.officehallNav{
+    padding-left: 20px;
+    background-color: #fbfbfb;
+    /* height: 50px; */
+    border-bottom: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+a{
+    color: #333;
+}
+.officehallNav li{
+    float: left;
+    margin: 10px 20px 0;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+    padding: 0 7px;
+    box-sizing: border-box;
+    color: #999;
+}
+.liActive{
+    border-bottom: 2px solid #00e4ef;
+}
+.officehallNav li:hover{
+    border-bottom: 2px solid #00e4ef;    
+}
+.officehallContent{
+    background-color: #fff;
+    padding: 20px 20px 20px 10px;
+}
+.singleKind{
+    width: 204px;
+    height: 180px;
+    text-align: center;
+    display: inline-block;
+    background-color: #fafafa;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    /* margin-top: 20px; */
+}
+.singleKind img{
+    margin-top: 32px;
+    height:96px;
+}
+#of2,#of3,#of4,#of5,#of6,#of7,#of8{
+    display: none;
+}

@@ -1,0 +1,122 @@
+.resource{
+    padding: 0 20px;
+    box-shadow: 0 0 1px #e5e5e5;
+}
+.resourceNav{
+    padding-left: 20px;
+    background-color: #fbfbfb;
+    /* height: 50px; */
+    border-bottom: 1px solid #e4e4e4;
+    overflow: hidden;
+}
+a{
+    color: #333;
+}
+.resourceNav li{
+    float: left;
+    margin: 10px 20px 0;
+    line-height: 40px;
+    height: 40px;
+    font-size: 14px;
+    padding: 0 7px;
+    box-sizing: border-box;
+    color: #666;
+}
+.liActive{
+    border-bottom: 2px solid #00e4ef;
+    color: #999 !important;
+}
+.resourceNav li:hover{
+    border-bottom: 2px solid #00e4ef;
+    color: #999;
+}
+.activityNav{
+    border-bottom: 1px solid #e5e5e5;
+}
+.all{
+    line-height: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    float: left;
+}
+.all span{
+    padding: 2px 10px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+.orange{
+    background-color: #ff6800;
+    border-radius: 2px;
+}
+.others{
+    width: 680px;
+    margin-left: 185px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.others span{
+    display: inline-block;
+    width: 110px;
+    line-height: 40px;
+    color: #666;
+}
+.singleResource{
+    margin-top: 20px;
+    background-color: #fbfbfb;
+    color: #666;
+    height: 200px;
+}
+.resourceImg{
+    float: left;
+    width: 270px;
+    height: 200px;
+}
+.resourceRight{
+    margin-left: 290px;
+}
+.resourseContent{
+    height: 46px;
+    line-height: 46px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.resourseContent span{
+    font-size: 14px;
+    padding: 0px 16px;
+    background-color: #00c4ef;
+    color: #fff;
+    float: right;
+    margin-right: 20px;
+    line-height: 25px !important;
+    margin-top: 10px;
+}
+.booking{
+    margin-left: 80px;
+}
+.booking span{
+    display: inline-block;
+    width: 90px;
+    height: 38px;
+    text-align: center;
+    color: #3380ff;
+    border: 1px solid #3380ff;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+.booking span:hover{
+    border-color:#00c4ef;
+    background-color: #00c4ef;
+    color: #fff; 
+}
+.booking span:nth-of-type(4n){
+    margin-right: 0; 
+}
+.booked{
+    background-color: #c3c3c3 !important;
+    color: #fff !important;
+}
+span:hover{
+    cursor: pointer;
+}

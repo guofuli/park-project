@@ -1,0 +1,29 @@
+.footer {
+    width: 1200px;
+	background-color: #f4f4f4;
+	height: 120px;
+    padding: 20px 0;
+    margin: 0 auto;
+	margin-top: 30px;
+}
+.footer .footConter {
+	width: 90%;
+	margin: 0 auto;
+}
+.erwemULst {
+    float: left;
+}
+.innetLists {
+    float: right;
+    text-align: right;
+    color: #999999;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.innetLists li {
+    margin-bottom: 7px;
+}
+.innetLists li a {
+    color: #333333;
+    text-decoration: none;
+}

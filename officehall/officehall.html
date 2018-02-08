@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>国企公共服务平台</title>
+    <link rel="stylesheet" href="./css/top.css">
+    <link rel="stylesheet" href="./css/left.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/officehall.css">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/officehall.js"></script>
+</head>
+
+<body class="yq-bg">
+    <div class="top">
+        <div class="topHeader">
+            <div class="logo">
+                <img src="images/logo.png">
+                <ul class="logoUL">
+                    <li>
+                        园区企业公共服务平台
+                    </li>
+                </ul>
+            </div>
+            <div class="headerRight">
+                <div class="search">
+                    <form name="formsearch" id="formsearch" method="post">
+                        <input type="text" name="searchValue" id="searchValue" value="" placeholder="请输入搜索内容" class="seachInpt">
+                        <div id="header-search" class="search-sort" onmouseover="select_over('search-sort-list2')" onmouseout="select_out('search-sort-list2')">
+                            <strong class="search-sort-txt">新闻动态</strong>
+                            <em></em>
+                            <input type="hidden" name="typeId" id="typeId" value="2">
+                            <ul id="search-sort-list2" class="search-sort-list">
+                                <li value="1">通知公告</li>
+                                <li value="2">新闻动态</li>
+                                <!--<li value="3">园区活动</li>-->
+                            </ul>
+                        </div>
+                        <a class="seachBTN">搜索</a>
+                    </form>
+                </div>
+                <!--search-->
+                <ul class="rightUL">
+                    <li class="loginLI">
+                        <a href="#" class="loginBtnON">
+                            <div class="imgHEDER">
+                                <span id="unReadMsg">53</span>
+                            </div>
+                            <span title="qh01">qh01</span>
+                            <img src="images/arrbtn.png" width="11" height="6">
+                        </a>
+                        <ul class="loginUL">
+                            <li>
+                                <a href="#">消息中心</a>
+                            </li>
+                            <li>
+                                <a href="#">安全退出</a>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="nav">
+            <div class="navContent">
+                <a href="#" class="totalDivd">全部服务分类
+                    <div class="totalArrw"></div>
+                </a>
+                <div class="menu_header">
+                    <div class="listCont listContMore">
+                        <span class="moreTip"></span>
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>基础服务</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="" target="">资料下载</a>
+                                </li>
+                                <li>
+                                    <a href="" target="">费用查询</a>
+                                </li>
+                                <li>
+                                    <a href="" target="">在线咨询</a>
+                                </li>
+                                <li>
+                                    <a href="" target="">投诉建议</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>孵化服务</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="#" target="">公共技术平台</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">科技金融平台</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">创新创业服务平台</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">国际合作平台</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>孵化载体</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="#" target="">扩租申请</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">退租申请</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">会议室申请</a>
+                                </li>
+                                <li>
+                                    <a href="#" target="">二期预购申请</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                        <div class="listOne listOneMore">
+                            <p class="liseOneHED">
+                                <a href="#">
+                                    <i class="liseLeftCirc"></i>增值服务</a>
+                            </p>
+                            <ul class="liseOcontUL">
+                                <li>
+                                    <a href="" target="">暂住证代办</a>
+                                </li>
+                            </ul>
+                            <div style="clear:both;"></div>
+                        </div>
+                        <!--listOne-->
+                    </div>
+                    <!--listCont-->
+                </div>
+                <ul class="navUL">
+                    <li>
+                        <a class="" data-type="index" href="../index/index.html">首页</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="news" href="../news/news.html">新闻动态</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="notice" href="../news/news.html">通知公告</a>
+                    </li>
+                    <li>
+                        <a class="navActive" data-type="officehall" href="../officehall/officehall.html">服务大厅</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="activePrev" href="../activity/activity.html">园区活动</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="resource" href="../resource/resource.html">园区资源</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="comp" href="../company/company.html">企业星空</a>
+                    </li>
+                    <li id='cyds'>
+                        <a class="" data-type="expert" href="../teacher/teacher.html">创业导师</a>
+                    </li>
+                    <li>
+                        <a class="" data-type="provider" href="../provider/provider.html">服务机构</a>
+                    </li>
+                    <li id='wskf'>
+                        <a class="" data-type="house" href="../house/house.html">网上看房</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--nav结束-->
+        <div class="yq-main">
+            <!-- 左侧新闻公告栏 -->
+            <div class="yq-left">
+                <div class="yq-left-notice">
+                    <ul class="yq-left-ul">
+                        <li>最新公告</li>
+                        <a href="#">
+                            <li>
+                                <span>1</span>公司办公地点变更通告</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>2</span>关于组织申报2016年珠海市高新...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>3</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>4</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>5</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>6</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>7</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>8</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="yq-left-news">
+                    <ul class="yq-left-ul">
+                        <li>热门新闻</li>
+                        <a href="#">
+                            <li>
+                                <span>1</span>2017年广东省“众创杯”创业创新...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>2</span>珠海清华科技园二期创新大厦G、H...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>3</span>“情聚清华园，千里共婵娟”201...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>4</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>5</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>6</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>7</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                        <a href="#">
+                            <li>
+                                <span>8</span>关于2016年度广东省初创企业经...</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧内容区域 -->
+            <div class="yq-right-content">
+                <div class="yq-right-nav">
+                    <span></span>当前位置：
+                    <a href="#">服务大厅 </a>>
+                    <a href="#"> 服务列表</a>
+                </div>
+                <div class="officehall">
+                    <ul class="officehallNav">
+                        <li class="liActive" data-index="of1">孵化服务</li>
+                        <li data-index="of2">国际合作</li>
+                        <li data-index="of3">物业服务</li>
+                        <li data-index="of4">人才服务</li>
+                        <li data-index="of5">项目申报</li>
+                        <li data-index="of6">资源对接</li>
+                        <li data-index="of7">科技金融</li>
+                        <li data-index="of8">技术平台</li>
+                    </ul>
+                </div>
+                <div class="officehallContent" id="of1">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khxy.png" alt="">
+                        <p>客户续约</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/yktfw.png" alt="">
+                        <p>一卡通服务</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/htztbg.png" alt="">
+                        <p>合同主体变更</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khtz.png" alt="">
+                        <p>客户退租</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/wifi.png" alt="">
+                        <p>WiFi</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/wybx.png" alt="">
+                        <p>物业报修</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/dhkd.png" alt="">
+                        <p>电话宽带</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a>
+                </div>
+                <div class="officehallContent" id="of2">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khxy.png" alt="">
+                        <p>客户续约</p>
+                    </a>
+                </div>
+                <div class="officehallContent" id="of3">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khxy.png" alt="">
+                        <p>客户续约</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a>
+                </div>
+                <div class="officehallContent" id="of4">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                </div>
+                <div class="officehallContent" id="of5">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khxy.png" alt="">
+                        <p>客户续约</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a>
+                </div>
+                <div class="officehallContent" id="of6">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khxy.png" alt="">
+                        <p>客户续约</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a>
+                </div>
+                <div class="officehallContent" id="of7">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khxy.png" alt="">
+                        <p>客户续约</p>
+                    </a>
+                </div>
+                <div class="officehallContent" id="of8">
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/rzsq.png" alt="">
+                        <p>入驻申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a><a href="officehallContent.html" class="singleKind">
+                        <img src="./images/tssq.png" alt="">
+                        <p>投诉申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/zxsq.png" alt="">
+                        <p>装修申请</p>
+                    </a>
+                    <a href="officehallContent.html" class="singleKind">
+                        <img src="./images/khxy.png" alt="">
+                        <p>客户续约</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 页脚通用部分 -->
+        <div class="footer">
+            <div class="footConter">
+                <ul class="erwemULst">
+                    <li>
+                        <img src="images/ewm.png">
+                    </li>
+                </ul>
+                <ul class="innetLists" style="float:left;text-align:left;margin:30px 0 0 80px;">
+                    <li>
+                        <a href="#">通知公告</a> |
+                        <a href="#">服务大厅</a> |
+                        <a href="#">园区活动</a> |
+                        <a href="#">园区资源</a> |
+                        <a href="#">企业星空</a> |
+                        <a href="#">服务机构</a> |
+                        <a href="#">网上看房</a>
+                    </li>
+                    <li style="letter-spacing: 0;text-align: center;">Copyright 2012 中威天安 All Rights Reserved |
+                        <a style="color: #999;" href='#' target='_blank'>沪ICP备12049726号</a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <div style="float:right;width:240px;padding:10px 0px;;text-align:center;margin-top:5px;">
+                        <img src="images/jb.png">
+                    </div>
+                </a>
+            </div>
+        </div>
+</body>
+<script>
+    $(function () {
+        $('.totalDivd').on("mouseover", function () {
+            $('.menu_header').css({
+                'opacity': 1,
+                'z-index': 999999
+            });
+        })
+        $('.totalDivd').on("mouseout", function () {
+            $('.menu_header').css({
+                'opacity': 0,
+                'z-index': -1
+            });
+        })
+        $('.menu_header').on("mouseover", function () {
+            $('.menu_header').css({
+                'opacity': 1,
+                'z-index': 999999
+            });
+        })
+        $('.menu_header').on("mouseout", function () {
+            $('.menu_header').css({
+                'opacity': 0,
+                'z-index': -1
+            });
+        })
+        $('.loginLI').hover(function () {
+            $('.loginUL').css({
+                width: '120px'
+            });
+        }, function () {
+            $('.loginUL').css({
+                width: '0'
+            });
+        })
+    })
+</script>
+
+</html>
